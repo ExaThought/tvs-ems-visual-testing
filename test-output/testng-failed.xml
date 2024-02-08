@@ -3,15 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="newVTdemocompareSS.testScripts.compareTest5">
+      <class name="com.tvsaccelerator.testscripts.compareScreenshot">
         <methods>
-          <include name="compFilterPage"/>
-          <include name="login"/>
+          <include name="comparecreateEnquiryPage"/>
           <include name="close_browser"/>
           <include name="logout"/>
+          <include name="comparehomePage"/>
           <include name="open_browser"/>
+          <include name="compareMissedtaskPage"/>
+          <include name="compareLanguagePage"/>
+          <include name="comparefilterPage"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- newVTdemocompareSS.testScripts.compareTest5 -->
+      </class> <!-- com.tvsaccelerator.testscripts.compareScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
